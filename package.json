@@ -34,7 +34,8 @@
 		"prepublishOnly": "npm run build"
 	},
 	"files": [
-		"dist"
+		"dist",
+		"skills"
 	],
 	"dependencies": {
 		"@kimsungwhee/apple-docs-mcp": "^1.0.26"
