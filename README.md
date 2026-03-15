@@ -14,14 +14,6 @@ npm run build
 npm link
 ```
 
-Requires [apple-docs-mcp](https://github.com/kimsungwhee/apple-docs-mcp) cloned as a sibling directory:
-
-```
-parent/
-  apple-docs-mcp/   # npm install && npm run build
-  apple-docs-cli/
-```
-
 ## Usage
 
 ```

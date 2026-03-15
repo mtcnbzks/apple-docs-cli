@@ -17,7 +17,7 @@
 		"dist"
 	],
 	"dependencies": {
-		"@kimsungwhee/apple-docs-mcp": "file:../apple-docs-mcp"
+		"@kimsungwhee/apple-docs-mcp": "^1.0.26"
 	},
 	"devDependencies": {
 		"@types/node": "^20.11.0",
