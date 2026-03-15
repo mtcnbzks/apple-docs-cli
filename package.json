@@ -1,0 +1,26 @@
+{
+	"name": "apple-docs-cli",
+	"version": "1.0.0",
+	"license": "MIT",
+	"bin": {
+		"apple-docs": "dist/cli.js"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch"
+	},
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"@kimsungwhee/apple-docs-mcp": "file:../apple-docs-mcp"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.0",
+		"typescript": "^5.3.3"
+	}
+}
